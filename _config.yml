@@ -1,20 +1,20 @@
 # Site settings
-name: Edwin E. Exemplar
-email: edwin+contactme@someemail.com
-#canonical_url: https://edwinexemplar.com
-keywords: "Software Engineer, Python, Ruby, Machine Learning, Deep Learning, Startups, Agile, Pair Programming"
-skills: "Senior Software Engineer in Seattle, WA (Fictitious)"
+name: Aniket Kumar
+email: 007aniketkumar@gmail.com
+#canonical_url: https://aniketkumar.com
+keywords: "Software Engineer, Java, Microservices, API Gateway, Scalable, Lead"
+skills: "Senior Software Engineer in Morgan Stanley, India"
 baseurl:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 # You should replace these with your social networks, of course. :)
 social:
   - title: linkedin
-    url: https://www.linkedin.com/in/cgroom/
-  - title: medium
-    url: https://medium.com/@cgroom
-  - title: twitter
-    url: https://twitter.com/chuck_groom
+    url: https://www.linkedin.com/in/aniket-kumar-23105a14/
+  #- title: medium
+    #url: https://medium.com/@cgroom
+  #- title: twitter
+   # url: https://twitter.com/chuck_groom
     
 # Google webmaster tools
 google_verify:
