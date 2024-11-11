@@ -32,9 +32,16 @@
     </p>
 </li>
                 <li>
-                    <a href="https://example.com/paper2" target="_blank">Paper Title 2</a>
-                    <p>Summary of Paper Title 2 goes here.</p>
-                </li>
+    <a href="https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf" target="_blank">Google File System paper</a>
+    <p style="font-size: small;">
+        <strong>Large Files:</strong> GFS is optimized for large files, typically ranging from megabytes to gigabytes in size. It efficiently manages these files by breaking them into smaller chunks.<br>
+        <strong>Chunk Data:</strong> Files are divided into fixed-size chunks (usually 64 MB), stored across multiple servers. Each chunk is replicated for fault tolerance, ensuring data availability even in case of hardware failures.<br>
+        <strong>Metadata:</strong> GFS maintains metadata about files and their locations, including information on chunk sizes, replication status, and the mapping of chunks to storage nodes.<br>
+        <strong>Versioning:</strong> GFS supports versioning of files, allowing users to access previous versions and manage changes over time.<br>
+        <strong>Fault Tolerance:</strong> The system is designed to handle failures gracefully by replicating chunks across different machines and automatically recovering from errors.<br>
+        <strong>Append-Only Operations:</strong> GFS supports append operations efficiently, making it suitable for applications that require logging or streaming data.
+    </p>
+</li>
                 <!-- Add more papers as needed -->
             </ul>
         </section>
