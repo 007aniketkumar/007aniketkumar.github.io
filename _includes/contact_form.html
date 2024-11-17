@@ -12,23 +12,30 @@
                 <p>Want to know more about my work? You can view or download my resume and a detailed PDF about my projects below:</p>
                 
                 <!-- View/Download Resume Button -->
-                <a href="https://drive.google.com/uc?id=1pLLRDrJokiW8zKsfaOko-bVxk-XpvmH9&export=download" 
-                   class="btn btn-outline-primary btn-lg" 
-                   style="margin: 10px; padding: 15px 30px;" 
-                   target="_blank" 
-                   rel="noopener noreferrer">
+                <button class="btn btn-outline-primary btn-lg" 
+                        style="margin: 10px; padding: 15px 30px;" 
+                        onclick="downloadFile('https://drive.google.com/uc?id=1pLLRDrJokiW8zKsfaOko-bVxk-XpvmH9&export=download')">
                     Download My Resume
-                </a>
+                </button>
 
                 <!-- View/Download Work PDF Button -->
-                <a href="https://drive.google.com/uc?id=1HoeKCZilfEk1oCPHzYgOKHsT39EVQ9Mp&export=download" 
-                   class="btn btn-outline-primary btn-lg" 
-                   style="margin: 10px; padding: 15px 30px;" 
-                   target="_blank" 
-                   rel="noopener noreferrer">
+                <button class="btn btn-outline-primary btn-lg" 
+                        style="margin: 10px; padding: 15px 30px;" 
+                        onclick="downloadFile('https://drive.google.com/uc?id=1HoeKCZilfEk1oCPHzYgOKHsT39EVQ9Mp&export=download')">
                     Know More About My Work
-                </a>
+                </button>
             </div>
         </div>
     </div>
 </section>
+
+<!-- JavaScript -->
+<script>
+    function downloadFile(url) {
+        // Open the link in a new tab to download
+        const anchor = document.createElement('a');
+        anchor.href = url;
+        anchor.target = '_blank';
+        anchor.click();
+    }
+</script>
